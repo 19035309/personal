@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#left{
+    float: left;
+    width: 20%;
+    color: #eee;
+    background-color: #3d3d3d;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+#touxiang{
+    width: 120px;
+    height: 120px;
+    border: 4px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#touxiang>img{
+    width: 100%;
+}
+#name{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+#left a{
+    color: grey;
+    font-size: 12px;
+}
+#left a:hover{
+    color: white;
+}
+#info,#tag{
+    text-align: center;
+    margin: 20px auto;
+}
+#right{
+    width: 80%;
+    float: right;
+    background: #eee;
+}
+.artical{
+    margin: 10px;
+    background: white;
+}
+.artical:hover{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    transform: translate3d(0,-2px,0);
+    transition: all .2s linear;
+}
+.articalf_head{
+    border-left: 4px solid red;
+}
+.articalf_head:after{
+    content: '';
+    width: 100%;
+    display: block;
+    clear: both;
+}
+.artical_title{
+    float: left;
+    margin: 10px 20px;
+}
+.artical_title a{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.artical_time{
+    margin: 10px 20px;
+    font-size: 14px;
+    float: right;
+}
+.artical_content{
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+.artical_tag{
+    margin: 20px;
+    font-size: 16px;
+}
