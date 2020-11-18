@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    height: 52px;
+    width: 100%;
+    line-height: 52px;
+    background-image: url(img/1347496823.jpeg);
+    margin: auto;
+}
+
+.logolike {
+    float: left;
+    font-size: 25px;
+    color: chocolate;
+    line-height: 52px;
+    padding-right: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ha {
+    height: 52px;
+    width: 1200px;
+    line-height: 52px;
+    margin: 0 auto;
+    
+}
+
+.ha ul li {
+    float: left;
+}
+
+.ha ul li a {
+    display: block;
+    height: 52px;
+    padding: 0 30px;
+    color: darkkhaki;
+    font-size: 18px;
+}
+
+.ha ul li a:hover {
+    color: aquamarine;
+}
+
+.search {
+    float: left;
+    height: 26px;
+    width: 230px;
+    margin-left: 70px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    background-color: white;
+}
+
+.search input {
+    float: left;
+    display: block;
+    height: 26px;
+    width: 170px;
+    background-color: floralwhite;
+    border: 0;
+}
+
+.search button {
+    float: left;
+    display: block;
+    height: 26px;
+    width: 60px;
+    background-color: darksalmon;
+    border: 1px solid white;
+}
+.user {
+    float: right;
+    height: 52px;
+    padding: 0 10px;
+    line-height: 52px;
+    color: white;
+}
+
+.user a {
+    color: #BDB76B;
+}
+
+.user a:hover {
+    color: #7FFFD4;
+}
+.eu{
+	
+	margin: 0;
+	padding: 0;
+	border-color: cornsilk;
+	
+	height: 300px;
+	
+	}
+
+.eu img{
+	width:100%;
+	height:300px;
+	
+  }
+         
+        .nav a{
+            font-size: 25px;
+            font-family: "agency fb";
+            list-style-image: url(img/WPS图片-修改尺寸.png);
+            list-style-position:outside;
+            border-color: cornsilk;
+            text-decoration: none;
+            background-image: url(img/默认文件1605581097551.png);
+            background-size: 100%,100%;
+            color: #000000;
+            
+            height: 42px;
+            text-align: center;
+            border: 0px solid cornsilk;
+            border-radius: 5px;
+            margin-top: 0;
+        }
+       .nav a{
+            display: block;
+        }
+  .plat{
+            display: none;
+            clear: none;
+            filter: Alpha(Opacity=100);
+            
+        }
+        .nav{
+             float: left;
+             margin-left: 0;
+             margin-right: 0;
+             clear: none;
+             width: 25%;
+             border-radius: 25px;
+             
+         }
+        .nav:hover .plat{
+            display: block;
+            clear: both;
+        }
+        .plat li:hover>a{
+            background-color: #BDB76B;
+        }
+        
+  body{
+  	background-image: url(img/1347496823.jpeg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  }
